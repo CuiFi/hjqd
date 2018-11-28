@@ -1,0 +1,17 @@
+<view class="page">
+    <view class="weui-msg">
+        <view class="weui-msg__icon-area">
+            <!-- <icon type="success" size="93"></icon> -->
+            <image src='../images/box.png'></image>
+        </view>
+        <view class="weui-msg__text-area">
+            <view class="weui-msg__title">恭喜!恭喜!</view>
+            <view class="weui-msg__desc">请联系场务人员领取礼品，感谢您选择合建</view>
+        </view>
+        <!-- <view class="weui-msg__opr-area">
+            <view class="weui-btn-area">
+                <button class="weui-btn" type="default" bindtap='gobackhome'>重新填写</button>
+            </view>
+        </view> -->
+    </view>
+</view>

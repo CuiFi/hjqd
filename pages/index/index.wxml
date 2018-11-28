@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button class='getBtn' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">签到</button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+      <text class="userinfo-nickname">签到成功</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">提交领礼品</button>
+  </view>
+</view>
